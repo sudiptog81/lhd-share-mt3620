@@ -1,0 +1,12 @@
+{
+  "SchemaVersion": 1,
+  "Name": "lhd-share",
+  "ComponentId": "b3eba04a-dbb2-427c-8b30-7673724e930d",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$AVNET_MT3620_SK_USER_LED_RED", "$AVNET_MT3620_SK_USER_LED_GREEN", "$AVNET_MT3620_SK_USER_LED_BLUE" ],
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
